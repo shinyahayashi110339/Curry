@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    color: white;
+    
+}
+
+@font-face{
+    font-family: "myfont";
+    src: url("fonts/odstemplik/odstemplik.otf")format("opentype"),url("fonts/odstemplik/odstemplikBold.otf")format("opentype");
+    
+}
+header h1{
+    font-size:100px;
+    font-family: "myfont";
+    color: black;
+    text-align: center;
+}
+
+.top-img{
+    background-image: url("imgs/carry3.png");
+    background-size: 38%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:570px;
+    
+    
+    
+}
+
+.top-text{
+    text-align: center;
+    padding:250px 0;
+}
+
+.top-text h1{
+    font-size:100px;
+    font-family: "myfont";
+}
+
+nav h3{
+    font-family: "myfont";
+    color: black;
+}
+nav i {
+color:#888;
+}
+
+.night-sky{
+    padding:200px 0;
+    text-align: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.feature1{
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  width: 250px;
+  height: 100px;
+}
+  
+.feature2{
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  width: 250px;
+  height: 100px;
+}
+.feature3{
+  position: absolute;
+  top: 570px;
+  left: 400px;
+  width: 250px;
+  height: 100px;
+}
+.feature4{
+  position: absolute;
+  top: 860px;
+  left: 500px;
+  width: 250px;
+  height: 100px;
+}
+.feature5{
+  position: absolute;
+  top: 480px;
+  left: 870px;
+  width: 250px;
+  height: 100px;
+}
+.feature6{
+  position: absolute;
+  top: 850px;
+  left: 800px;
+  width: 250px;
+  height: 100px;
+}
+.feature7{
+  position: absolute;
+  top: 420px;
+  left: 1100px;
+  width: 250px;
+  height: 100px;
+}
+.feature8{
+  position: absolute;
+  top: 800px;
+  left: 1000px;
+  width: 250px;
+  height: 100px;
+}
+
+.featurep p{
+    font-size: 50px;
+    color:#FF0000;
+}
+.night-sky h2{
+    font-family: "myfont";
+    font-size: 80px;
+    margin-bottom: 40px;
+    color: #FFD700;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.service-list{
+    background-color: #333;
+    padding: 50px;
+}
+
+.service-list h2{
+    text-align: center;
+    font-family: "myfont";
+    font-size: 80px;
+}
+
+.service-list h4{
+    text-align: center;
+    font-family: "myfont";
+    font-size: 30px;
+}
+
+.service-img{
+    width:100%;
+}
+
+.service-sescription{
+    padding: 50px;
+}
+
+.info{
+    border:solid 2px white;
+    margin:20px;
+    padding:20px;
+}
+
+.icon{
+    font-size: 100px;
+}
+
+
+footer{
+    background-color: #333;
+    padding: 30px;
+}
+
+footer p{
+    text-align: right;
+}
+
+footer ul li {
+    list-style:none;
+}
+
+footer ul li a{
+    color:#aaa;
+    font-size:15px;
+}
+
+footer ul li a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+.carousel-item {
+    background-size: 38%;
+}
+.carousel-item h4{
+    color:#FF4500;
+    font-size: 50px;
+}
+.carousel-inner{
+    height: 700px;
+}
+.cyuui{
+    font-size: 10px;
+}
